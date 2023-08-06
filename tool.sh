@@ -9,14 +9,14 @@ apt install sudo -y
 sudo apt update
 
 #logo 
-echo '''
+echo "
 _           _
   __ _  __| | ___  ___| |__
  / _` |/ _` |/ _ \/ _ \ '_ \
 | (_| | (_| |  __/  __/ | | |
  \__, |\__,_|\___|\___|_| |_|
     |_|
-'''
+"
 center() {
   termwidth=$(stty size | cut -d" " -f2)
   padding="$(printf '%0.1s' ={1..500})"
